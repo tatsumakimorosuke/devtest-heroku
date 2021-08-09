@@ -59,14 +59,12 @@ td {
 }
 </style>
 <title>TestApp</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<div>
-		<h3>メインページ</h3>
-		<p>
-			ようこそ<strong><%=findedUser.getNickName()%></strong>さん
-		</p>
-	</div>
+
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -89,6 +87,13 @@ td {
 		</div>
 	</nav>
 	<jsp:include page="/WEB-INF/views/header2.jsp" />
+
+	<div>
+
+		<p>
+			ようこそ<strong><%=findedUser.getNickName()%></strong>さん
+		</p>
+	</div>
 
 	<jsp:include page="/WEB-INF/views/footer.jsp" />
 	<script type="text/javascript" src="js/main.js"></script>
