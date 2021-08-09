@@ -1,4 +1,13 @@
-dao\UserDAO.class
+ItemDetailServlet.class
 model\CheckUserLogic.class
-model\User.class
+items\ItemManager.class
+shopping\ItemSummaryView.class
+shopping\ItemImageView.class
+shopping\ItemDetailView.class
 servlet\LoginServlet.class
+shopping\ItemDetailViewModel.class
+shopping\ItemsViewModel.class
+dao\UserDAO.class
+shopping\Item.class
+img\ImageManager.class
+model\User.class
