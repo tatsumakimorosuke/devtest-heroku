@@ -4,7 +4,7 @@
 <%@ page import="model.User"%>
 <%
 	User findedUser = (User) request.getAttribute("findedUser");
-	request.setAttribute("findedUser", findedUser);
+
 %>
 
 <%@ page import="java.util.List"%>
@@ -197,7 +197,9 @@ td {
 					<p>業務に必要な知識、技術だと思い勉強中。</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="" class="img-responsive">
+					<img
+						src=""
+						class="img-responsive">
 				</div>
 			</div>
 			<div class="row">
@@ -206,7 +208,9 @@ td {
 					<p>ソーシャルコミュニケーションサービス（自分で開発したものではない。）を使います。使い方次第で、すごい可能性を秘めていると実感しています。学習記録としても利用しています。</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="" class="img-responsive">
+					<img
+						src=""
+						class="img-responsive">
 				</div>
 			</div>
 			<div class="row">
@@ -243,9 +247,7 @@ td {
 
 	<jsp:include page="/WEB-INF/views/footer.jsp" />
 	<script type="text/javascript" src="js/main.js"></script>
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
