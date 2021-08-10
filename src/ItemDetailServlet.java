@@ -13,7 +13,7 @@ import shopping.ItemDetailViewModel;
 /**
  * Servlet implementation class ItemDetailServlet
  */
-@WebServlet("/shopping/itemDetail")
+@WebServlet("/itemDetail")
 public class ItemDetailServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
