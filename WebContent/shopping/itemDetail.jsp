@@ -42,6 +42,6 @@ button {
 	<div style="margin:1.0rem 0;"><%= item.getDescription() %></div>
 
 	</div>
-	<a href="LoginServlet">Back</a>
+	<a href="./WEB-INF/jsp/loginFail.jsp">Back</a>
 </body>
 </html>
