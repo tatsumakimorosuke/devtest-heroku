@@ -102,13 +102,12 @@ td {
 	</nav>
 	<jsp:include page="/WEB-INF/views/header2.jsp" />
 
-	<div>
+	<!--  <div>
 
 		<p>
 			ようこそ<strong><%=findedUser.getNickName()%></strong>さん
 		</p>
-	</div>
-
+	</div> -->
 	<div class="container">
 		<div class="starter-template">
 			<div class="row text-center">
