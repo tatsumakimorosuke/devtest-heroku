@@ -1,5 +1,10 @@
 <%@page import="shopping.Item"%>
 <%@page import="shopping.ItemDetailViewModel"%>
+<%@ page import="model.User"%>
+<%
+	User findedUser = (User) request.getAttribute("findedUser");
+	request.setAttribute("findedUser", findedUser);
+%>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -42,6 +47,6 @@ button {
 	<div style="margin:1.0rem 0;"><%= item.getDescription() %></div>
 
 	</div>
-	<a href="../../WEB-INF/jsp/mainPage.jsp">Back</a>
+	<a href="LoginServlet">Back</a>
 </body>
 </html>
